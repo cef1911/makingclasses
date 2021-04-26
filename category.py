@@ -1,17 +1,3 @@
-# class Budget:
-#     pass
-
-# obj = Budget()
-# print(type(obj))
-
-# class Budget:
-    
-#     amount = 0
-
-#     def_init_(self):
-#         self.category = ["Food", "Clothing", "Entertainment"]
-
-
 class Budget:
 
     def __init__ (self, Food, Clothing):
