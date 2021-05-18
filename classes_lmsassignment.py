@@ -1,15 +1,4 @@
-# class Budget:
-#     pass
-
-# obj = Budget()
-# print(type(obj))
-
-# class Budget:
-    
-#     amount = 0
-
-#     def_init_(self):
-#         self.category = ["Food", "Clothing", "Entertainment"]
+self.category = ["Food", "Clothing", "Entertainment"]
 
 
 class Category:
@@ -22,8 +11,7 @@ class Category:
 
     #methods
     def deposit(self, amount):
-        # pass
-        #return 'this is a deposit method'
+   
         self.amount += amount
         return "You have successfully deposited {} in the {} category".format(amount, self.category)
 
@@ -31,11 +19,11 @@ class Category:
         return "This is the current balance: {}".format(self.amount)
     
     def check_balance(self):
-        #pass
+      
         return "This is the check balance: {}".format(self.amount)
 
     def withdraw(self, amount):
-        #pass
+       
         self.amount -= amount
         return "You have successfully withdrew {} in the {} category".format(amount, self.category)
 
