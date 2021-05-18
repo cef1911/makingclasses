@@ -1,4 +1,4 @@
-self.category = ["Food", "Clothing", "Entertainment"]
+
 
 
 class Category:
@@ -42,7 +42,7 @@ car_category = Category ("Car Expenses", 600)
 
 print(food_category.deposit(250))
 print(food_category.budget_balance())
-#print(category.deposit())
+
 
 print(clothing_category.deposit(300))
 print(clothing_category.check_balance())
